@@ -1,0 +1,193 @@
+/* css style sheet for product landing page challenge from freecodecamp.org */
+body {
+    width: 100%;
+    font-family: Georgia, "Times-New-Roman", Times, serif;
+    font-size: 1em;
+    color: white;
+    /*background-color: #659dbd;*/
+    background-image: url("background.jpg");
+}
+
+#header {
+    font-family:  "Trebuchet MS", Helvetica, sans-serif;
+    color: black;
+}
+
+header#header {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header#header img {
+    float: left;
+    margin: .9em;
+}
+
+h1 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+}
+p {
+    font-family: Georgia, "Time New Roman", Times, serif;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+h2.important {
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 0.1em;
+}
+
+.typewriter {
+    font-family: "Courier New", Courier, monospace;
+}
+
+#form {
+    display: inline-block;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+}
+    
+.standout {
+    color: #daad86;
+}
+
+blockquote{
+    font-size: 1.8em;
+    color: white;
+    text-align: center;
+    line-height: 0.1em;
+}
+
+img.middle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center {
+    text-align: center;
+}
+
+div#main {
+    width: 90%;
+    margin: 1.5em 1.5em 1% auto;
+}
+
+div.content {
+    color: white;
+}
+
+nav#nav-bar {
+   width: 100%;
+}
+
+nav#nav-bar ul {
+    list-style-type: none;
+}
+
+nav#nav-bar ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    font-weight: 900;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: .75em;
+}
+
+nav#nav-bar ul li {
+    text-align: center;
+    display: inline;
+    width: 19%;
+    float: left;
+    margin-right: .5em;
+    border-radius: 20px;
+}
+
+li.nav-link {
+    background-color: #ccebff;
+}
+
+li.nav-link:hover {
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+li.nav-link:active {
+    background-color: darkblue;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px)  {
+    img.gallery {
+        display: block;
+    }
+}
+
+#btn {
+    padding: 0px 20px 0px 20px;
+    font-size: 1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    border-radius: 2px;
+    background: tranparent;
+    cursor: grab;
+}
+
+#box-container {
+    height: 500px;
+    display: flex;
+  }
+
+#box-1 {
+     background-color: dodgerblue;
+     width: 33%;
+     height: 33%;
+     margin-right: .5em;
+     border-radius: 20px;
+  }
+
+#box-2 {
+    background-color: orangered;
+    width: 33%;
+    height: 33%;
+    margin-right: .5em;
+    border-radius: 20px;
+  }
+
+#box-3 {
+    background-color: pink;
+    width: 33%;
+    height: 33%;
+    border-radius: 20px;
+  }
+
+footer .cta button {
+    border: 0;
+    background: white;
+    text-align: center;
+  }
+
+.goto {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    font-weight: 900;
+    
+    color: white;
+    text-align: center;
+}
