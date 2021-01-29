@@ -120,7 +120,7 @@ nav#nav-bar ul li {
     width: 19%;
     float: left;
     margin-right: .5em;
-    border: solid;
+    border: 5px outset #659dbd;
     border-radius: 20px;
     background-color: #659dbd;
 }
@@ -143,6 +143,10 @@ li.nav-link:active {
         display: block;
     }
 }
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
 
 #email {
     max-width: 275px;
@@ -154,7 +158,7 @@ li.nav-link:active {
     width: 100%;
     height: 30px;
     margin: 15px 0;
-    border: 0;
+    border: 5px outset #ddd;
     background-color: #ddd;
 }
 
