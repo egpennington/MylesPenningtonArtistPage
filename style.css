@@ -1,4 +1,5 @@
 /* css style sheet for product landing page challenge from freecodecamp.org */
+/* css style sheet for product landing page challenge from freecodecamp.org */
 body {
     width: 100%;
     font-family: Georgia, "Times-New-Roman", Times, serif;
@@ -29,9 +30,10 @@ header#header img {
 }
 
 h1 {
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-    font-size: 2em;
-    text-align: center;
+    font-family: Papyrus, "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 3.2em;
+    text-align: left;
+    color: white;
 }
 
 h2 {
@@ -39,7 +41,7 @@ h2 {
 }
 p {
     font-family: Georgia, "Time New Roman", Times, serif;
-    font-size: 1.2em;
+    font-size: 1.5em;
     text-align: center;
 }
 
@@ -64,7 +66,8 @@ h2.important {
 }
     
 .standout {
-    color: #daad86;
+    color: white;
+    font-size: 1.5em;
 }
 
 blockquote{
@@ -117,7 +120,9 @@ nav#nav-bar ul li {
     width: 19%;
     float: left;
     margin-right: .5em;
+    border: solid;
     border-radius: 20px;
+    background-color: #659dbd;
 }
 
 li.nav-link {
@@ -139,14 +144,28 @@ li.nav-link:active {
     }
 }
 
-#btn {
+#email {
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+}
+#submit {
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin: 15px 0;
+    border: 0;
+    background-color: #ddd;
+}
+
+.btn {
     padding: 0px 20px 0px 20px;
     font-size: 1em;
     font-weight: 900;
     text-transform: uppercase;
     border-radius: 2px;
     background: tranparent;
-    cursor: grab;
+    cursor: pointer;
 }
 
 #box-container {
@@ -155,7 +174,9 @@ li.nav-link:active {
   }
 
 #box-1 {
-     background-color: dodgerblue;
+     background-color: #ddd;
+     color: black;
+     text-transform: uppercase;
      width: 33%;
      height: 33%;
      margin-right: .5em;
@@ -163,7 +184,9 @@ li.nav-link:active {
   }
 
 #box-2 {
-    background-color: orangered;
+    background-color: #ddd;
+    color: black;
+    text-transform: uppercase;
     width: 33%;
     height: 33%;
     margin-right: .5em;
@@ -171,7 +194,9 @@ li.nav-link:active {
   }
 
 #box-3 {
-    background-color: pink;
+    background-color: #ddd;
+    color: black;
+    text-transform: uppercase;
     width: 33%;
     height: 33%;
     border-radius: 20px;
