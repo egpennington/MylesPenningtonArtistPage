@@ -1,60 +1,63 @@
 /* css style sheet for product landing page challenge from freecodecamp.org */
-/* css style sheet for product landing page challenge from freecodecamp.org */
 body {
     width: 100%;
     font-family: Georgia, "Times-New-Roman", Times, serif;
     font-size: 1em;
-    color: white;
+    /*color: white;*/
+    color: black;
     /*background-color: #659dbd;*/
-    background-image: url("background.jpg");
+    /* background-image: url("background.jpg");*/
+    background-color: #eee;
 }
-
 #header {
     font-family:  "Trebuchet MS", Helvetica, sans-serif;
     color: black;
 }
-
 header#header {
-    width: 100%;
+    width: 90%;
     position: absolute;
     left: 0;
     top: 0;
     position: fixed;
-    top: 0;
-    left: 0;
 }
-
 header#header img {
     float: left;
     margin: .9em;
 }
-
 h1 {
     font-family: Papyrus, "Trebuchet MS", Helvetica, sans-serif;
     font-size: 3.2em;
     text-align: left;
     color: white;
 }
-
 h2 {
     font-size: 2em;
 }
 p {
-    font-family: Georgia, "Time New Roman", Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 1.5em;
     text-align: center;
 }
-
+p.form {
+    font-family: 'Lato', Papyrus, "Trebuchet MS", sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+}
+p.note {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1em;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
 h2.important {
     font-size: 1.5em;
     text-align: center;
     line-height: 0.1em;
 }
-
 .typewriter {
     font-family: "Courier New", Courier, monospace;
 }
-
 #form {
     display: inline-block;
     width: 200px;
@@ -64,46 +67,37 @@ h2.important {
     text-align: center;
     cursor: pointer;
 }
-    
 .standout {
     color: white;
     font-size: 1.5em;
 }
-
-blockquote{
+.blockquote{
     font-size: 1.8em;
-    color: white;
+    color: #659dbd;
     text-align: center;
-    line-height: 0.1em;
+    line-height: 1em;
 }
-
 img.middle {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-
 .center {
     text-align: center;
 }
-
 div#main {
     width: 90%;
     margin: 1.5em 1.5em 1% auto;
 }
-
 div.content {
     color: white;
 }
-
 nav#nav-bar {
    width: 100%;
 }
-
 nav#nav-bar ul {
     list-style-type: none;
 }
-
 nav#nav-bar ul li a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.1em;
@@ -113,7 +107,6 @@ nav#nav-bar ul li a {
     display: block;
     padding: .75em;
 }
-
 nav#nav-bar ul li {
     text-align: center;
     display: inline;
@@ -124,20 +117,16 @@ nav#nav-bar ul li {
     border-radius: 20px;
     background-color: #659dbd;
 }
-
 li.nav-link {
     background-color: #ccebff;
 }
-
 li.nav-link:hover {
     background-color: lightblue;
     cursor: pointer;
 }
-
 li.nav-link:active {
     background-color: darkblue;
 }
-
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px)  {
     img.gallery {
         display: block;
@@ -147,21 +136,30 @@ li.nav-link:active {
   width: device-width ;
   zoom: 1.0 ;
 }
-
 #email {
     max-width: 275px;
     width: 100%;
     padding: 5px;
+}
+#name {
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+}
+#dropdown {
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
 }
 #submit {
     max-width: 150px;
     width: 100%;
     height: 30px;
     margin: 15px 0;
+    background-color: #f1c40f;
     border: 5px outset #ddd;
-    background-color: #ddd;
 }
-
 .btn {
     padding: 0px 20px 0px 20px;
     font-size: 1em;
@@ -169,54 +167,50 @@ li.nav-link:active {
     text-transform: uppercase;
     border-radius: 2px;
     background: tranparent;
-    cursor: pointer;
+    cursor: pointer;  
 }
-
 #box-container {
     height: 500px;
     display: flex;
-  }
-
+    flex-direction: row;
+    justify-content: center;
+    flex-shrink: 1;
+}
 #box-1 {
      background-color: #ddd;
      color: black;
      text-transform: uppercase;
-     width: 33%;
-     height: 33%;
+     width: 35%;
+     height: 45%;
      margin-right: .5em;
      border-radius: 20px;
-  }
-
+}
 #box-2 {
     background-color: #ddd;
     color: black;
     text-transform: uppercase;
-    width: 33%;
-    height: 33%;
+    width: 35%;
+    height: 45%;
     margin-right: .5em;
     border-radius: 20px;
-  }
-
+}
 #box-3 {
     background-color: #ddd;
     color: black;
     text-transform: uppercase;
-    width: 33%;
-    height: 33%;
+    width: 35%;
+    height: 45%;
     border-radius: 20px;
-  }
-
+}
 footer .cta button {
     border: 0;
     background: white;
     text-align: center;
-  }
-
+}
 .goto {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.1em;
     font-weight: 900;
-    
     color: white;
     text-align: center;
 }
