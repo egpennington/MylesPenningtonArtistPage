@@ -216,6 +216,9 @@ footer .cta button {
 }
 /* adding Animated card selection here */
 .card {
+    display: flex;
+}
+.card {
     background: white;
     border-radius: 1rem;
     padding: 2rem;
