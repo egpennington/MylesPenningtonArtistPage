@@ -215,7 +215,7 @@ footer .cta button {
     text-align: center;
 }
 /* adding Animated card selection here */
-.card {
+.cards {
     display: flex;
 }
 .card {
