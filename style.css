@@ -214,3 +214,18 @@ footer .cta button {
     color: white;
     text-align: center;
 }
+/* adding Animated card selection here */
+.card {
+    background: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-left: -5rem;
+    box-shadow: 4px 4px 12px 2px;
+    transition: 0.2s;
+}
+.card:hover {
+    transform: translateY(-1rem);
+}
+.card:hover ~ .card {
+    tranform-translateX(4rem);
+}
